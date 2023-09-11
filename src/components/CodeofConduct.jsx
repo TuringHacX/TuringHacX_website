@@ -79,7 +79,7 @@ const CodeofConduct = () => {
   return (
     <div
       id='code-of-conduct'
-      className='flex flex-col mt-44 text-center gap-y-4'
+      className='flex flex-col mt-24 text-center gap-y-4'
     >
       <div>
         <h1

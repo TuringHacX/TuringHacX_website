@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="heading font-semibold gap-y-2 text-2xl md:text-4xl text-center md:text-left">
             <p className='text-zinc-100 backdrop-blur-lg text-6xl rounded-3xl'><span ref={glitch.ref}>Welcome to TuringHacX </span></p>
             <p className='text-yellow-500 font-thin mt-5 sm:mx-0 mx-6'><u className='underline-offset-4'>The 
-            Innovative First Mega Hackathon</u></p>
+            Innovative</u> First Mega Hackathon</p>
           </div>
         </div>
       </div>
