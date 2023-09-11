@@ -13,7 +13,8 @@ const Hero = () => {
         <div className="rightSide flex w-full md:w-1/2 flex-col items-center md:items-start">
           <div className="heading font-semibold gap-y-2 text-2xl md:text-4xl text-center md:text-left">
             <p className='text-zinc-100 backdrop-blur-lg text-6xl rounded-3xl'><span ref={glitch.ref}>Welcome to TuringHacX </span></p>
-            <p className='text-yellow-500 font-thin mt-5'><u className='underline-offset-4'>The innovative </u>First Hackathon</p>
+            <p className='text-yellow-500 font-thin mt-5 sm:mx-0 mx-6'><u className='underline-offset-4'>The 
+            Innovative First Mega Hackathon</u></p>
           </div>
         </div>
       </div>

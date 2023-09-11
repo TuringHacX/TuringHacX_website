@@ -77,31 +77,43 @@ const conductData = [
 
 const CodeofConduct = () => {
   return (
-    <div id='code-of-conduct' className="grid mb-8 w-8/12 mx-auto mt-48 opacity-80 bg-black rounded-lg border border-white shadow-sm md:mb-12 md:grid-cols-2">
-      {conductData.map((item, index) => (
-        <figure
-          key={index}
-          className={`flex flex-col items-center justify-center p-8 text-center backdrop-blur-3xl ${
-            index === conductData.length - 1 ? 'rounded-b-lg' : 'border-r'
-          } dark:backdrop-blur-3xl`}
+    <div
+      id='code-of-conduct'
+      className='flex flex-col mt-44 text-center gap-y-4'
+    >
+      <div>
+        <h1
+          className='text-zinc-100 text-5xl font-bold'
         >
-          <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              {item.quote}
-            </h3>
-            <p className="my-4">{item.description}</p>
-          </blockquote>
-          <figcaption className="flex items-center justify-center space-x-3">
-           
-            <div className="space-y-0.5 font-medium dark:text-white text-left">
-              <div>{item.author}</div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">
-                {item.role}
+          Code of Conduct
+        </h1>
+      </div>
+      <div  className="grid mb-8 w-8/12 mx-auto mt-5 opacity-80 bg-black rounded-lg border border-white shadow-sm md:mb-12 md:grid-cols-2">
+        {conductData.map((item, index) => (
+          <figure
+            key={index}
+            className={`flex flex-col items-center justify-center p-8 text-center backdrop-blur-3xl ${
+              index === conductData.length - 1 ? 'rounded-b-lg' : 'border-r'
+            } dark:backdrop-blur-3xl`}
+          >
+            <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                {item.quote}
+              </h3>
+              <p className="my-4">{item.description}</p>
+            </blockquote>
+            <figcaption className="flex items-center justify-center space-x-3">
+            
+              <div className="space-y-0.5 font-medium dark:text-white text-left">
+                <div>{item.author}</div>
+                <div className="text-sm text-gray-500 dark:text-gray-400">
+                  {item.role}
+                </div>
               </div>
-            </div>
-          </figcaption>
-        </figure>
-      ))}
+            </figcaption>
+          </figure>
+        ))}
+      </div>
     </div>
   );
 };
