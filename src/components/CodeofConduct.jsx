@@ -83,7 +83,7 @@ const CodeofConduct = () => {
     >
       <div>
         <h1
-          className='text-zinc-100 text-5xl font-bold'
+          className='text-zinc-100 sm:text-5xl text-3xl font-bold'
         >
           Code of Conduct
         </h1>
