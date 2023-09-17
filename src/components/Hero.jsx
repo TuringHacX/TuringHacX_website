@@ -5,7 +5,9 @@ import { useGlitch } from 'react-powerglitch'
 const Hero = () => {
   const glitch = useGlitch();
   return (
+    
     <div className="mainContainer mt-14">
+    
       <div className="w-full flex flex-col items-center md:flex-row md:items-center md:justify-around px-4 lg:px-20 gap-10">
         <div className="leftSide w-full md:w-1/2 h-[400px] flex justify-center"> {/* Center the image */}
           <img src={leftImage} alt="Left Image" className="w-auto h-auto object-cover" />

@@ -83,7 +83,7 @@ const CodeofConduct = () => {
     >
       <div>
         <h1
-          className='text-zinc-100 sm:text-5xl text-3xl font-bold'
+          className='text-orange-500 sm:text-5xl text-3xl font-bold'
         >
           Code of Conduct
         </h1>
@@ -97,10 +97,10 @@ const CodeofConduct = () => {
             } dark:`}
           >
             <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-white dark:text-white">
                 {item.quote}
               </h3>
-              <p className="my-4">{item.description}</p>
+              <p className="my-4 text-xl text-white">{item.description}</p>
             </blockquote>
             <figcaption className="flex items-center justify-center space-x-3">
             
