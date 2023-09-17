@@ -92,9 +92,9 @@ const CodeofConduct = () => {
         {conductData.map((item, index) => (
           <figure
             key={index}
-            className={`flex flex-col items-center justify-center p-8 text-center backdrop-blur-3xl ${
+            className={`flex flex-col items-center justify-center p-8 text-center ${
               index === conductData.length - 1 ? 'rounded-b-lg' : 'border-r'
-            } dark:backdrop-blur-3xl`}
+            } dark:`}
           >
             <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
