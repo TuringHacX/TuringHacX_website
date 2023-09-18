@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import CodeofConduct from "../components/CodeofConduct";
 import About from "../components/About"
 import Contact from "../components/Contact";
+
 const Homepage = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const Homepage = () => {
       <About/>
       <CodeofConduct />
       <Contact/>
+      
     </>
   );
 };
