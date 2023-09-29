@@ -3,9 +3,9 @@ import Timeline from '../components/Events/TimeLine'
 const TimeLine = () => {
   return (
     <div>
-      <TimeLine />
+      <Timeline />
     </div>
   )
 }
 
-export default TimeLine
+export default TimeLine;
