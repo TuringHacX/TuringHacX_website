@@ -1,5 +1,8 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React, { useState } from "react";
-import logo from '../assets/turinhacx.png'
+import logo from '../../assets/turinhacx.png'
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,8 +34,8 @@ function Navbar() {
   ];
 
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900 text-2xl dark:backdrop-blur-md">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="bg-white border-gray-200 dark:bg-black opacity-80 text-2xl dark:backdrop-blur-md">
+      <div className="max-w-screen-xl rouned- flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="" className="flex items-center">
           <img
             src={logo}
@@ -83,7 +86,7 @@ function Navbar() {
               <li>
                 <a
                   href="#"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                  className="block px-4 round py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                 >
                   Settings
                 </a>
@@ -138,7 +141,7 @@ function Navbar() {
           }`}
           id="navbar-user"
         >
-          <ul className="flex absolute overflow-x-hidden flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex overflow-x-hidden flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-black opacity-80 backdrop-blur-3xl md:dark:bg-transparent">
             {buttons.map((button, index) => (
               <li key={index}>
                 <a
